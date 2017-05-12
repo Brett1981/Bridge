@@ -15966,7 +15966,9 @@ Bridge.Class.addExtend(System.String, [System.IComparable$1(System.String), Syst
             var tcs = new System.Threading.Tasks.TaskCompletionSource();
 
             try {
-                var array = buffer.getArray(), count = buffer.getCount(), offset = buffer.getOffset(),
+                var array = buffer.getArray(),
+                    count = buffer.getCount(),
+                    offset = buffer.getOffset(),
                     data;
 
                 switch (messageType) {
